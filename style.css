@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.main {
+  max-width: 42rem;
+  background-color: #1f2630;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+}
+
+.stp-1 {
+  position: relative;
+}
+
+.back {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50px;
+  background-color: #262f38;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  color: hsl(216, 12%, 54%);
+}
+.rate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+input {
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #262f38;
+  border: none;
+  color: hsl(216, 12%, 54%);
+}
+input:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+.input2 {
+  color: white;
+  background-color: hsl(216, 12%, 54%);
+}
+
+button {
+  margin-top: 3rem;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  padding: 1.5rem 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  border-radius: 50px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.stp-2 {
+  position: absolute;
+  max-width: inherit;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.sel {
+  background-color: #262f38;
+  color: hsl(25, 97%, 53%);
+  padding: 8px 16px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 3rem;
+}
+
+.stp-2 h2 {
+  margin-top: 1.5rem;
+}
+.thanks-para {
+  color: white;
+  background-color: none;
+  border-radius: none;
+  text-align: center;
+  color: hsl(216, 12%, 54%);
+}
